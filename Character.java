@@ -1,4 +1,4 @@
-public class Character {
+public class Character implements Attackable {
     String name;
     int health;
 
@@ -7,7 +7,8 @@ public class Character {
         this.health = health;
     }
 
-    void attack(){
+    @Override
+    public void attack(){
         System.out.println(name + "の攻撃！");
     }
 }
