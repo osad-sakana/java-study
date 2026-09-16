@@ -1,15 +1,9 @@
 public class Main {
+    static int add(int a, int b){
+        return a + b;
+    }
     public static void main(String[] args){
-        int[] scores = {80, 90, 70, 85, 95};
-
-        // for文
-        for(int i = 0; i < scores.length; i++){
-            System.out.println("Score " + (i + 1) + ": " + scores[i]);
-        }
-
-        // 拡張for文
-        for(int score : scores){
-            System.out.println("Score: " + score);
-        }
+        int result = add(5, 10);
+        System.out.println("The sum is: " + result);
     }
 }
