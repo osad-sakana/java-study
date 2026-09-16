@@ -1,9 +1,8 @@
 public class Main {
-    static int add(int a, int b){
-        return a + b;
-    }
     public static void main(String[] args){
-        int result = add(5, 10);
-        System.out.println("The sum is: " + result);
+        Player steve = new Player("Steve", 100);
+        Player alex = new Player("Alex", 80);
+        steve.printStatus();
+        alex.printStatus();
     }
 }
