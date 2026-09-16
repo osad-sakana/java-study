@@ -4,5 +4,8 @@ public class Main {
 
         int age = 15;
         System.out.println(age);
+
+        double height = 158.5;
+        System.out.println(height);
     }
 }
